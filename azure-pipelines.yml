@@ -50,6 +50,7 @@ stages:
   condition: succeeded()
   jobs:
   - deployment: DeployLinuxWebApp
+  
     displayName: Deploy Linux Web App
     environment: 'development'
     pool: 
